@@ -41,7 +41,7 @@ set ignorecase
 set hidden
 
 " Turn word wrap off
-set nowrap
+set wrap
 
 " Allow backspace to delete end of line, indent and start of line characters
 set backspace=indent,eol,start
@@ -96,7 +96,7 @@ set splitright
 set cursorline
 
 " Ensure Vim doesn't beep at you every time you make a mistype
-set visualbell
+" set visualbell
 
 " Visual autocomplete for command menu (e.g. :e ~/path/to/file)
 set wildmenu
@@ -112,8 +112,8 @@ let g:netrw_liststyle=3
 
 " Always highlight column 80 so it's easier to see where
 " cutoff appears on longer screens
-autocmd BufWinEnter * highlight ColorColumn ctermbg=darkred
-set colorcolumn=80
+"autocmd BufWinEnter * highlight ColorColumn ctermbg=darkred
+"set colorcolumn=80
 " }}}
 
 " Plugins {{{
